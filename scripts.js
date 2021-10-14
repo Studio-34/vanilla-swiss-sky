@@ -79,7 +79,7 @@ function initMap() {
         position: locations[i],
         map,
         title: locations[i].title,
-        icon: '/img/SwissIcon1.png'
+        icon: '/img/map_pin.png'
       });
       locationMarkers[i].addListener("click", () => {
         locationListener[i] = new google.maps.InfoWindow({

@@ -139,3 +139,21 @@ hr.right {
 .foot {
   background: linear-gradient(#e9dfdf, #e4e2e2);
 }
+
+.hipLink a:link {
+  /* letter-spacing: .25rem; */
+  /* font-weight: bold; */
+  color: black;
+  text-decoration: none;
+
+}
+
+.hipLink a:visited {
+  color: black;
+
+}
+
+.hipLink a:hover {
+  color: black;
+
+}

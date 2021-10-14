@@ -16,6 +16,7 @@ function locWindow(locName, locText, locEmbed) {
 
 let locationMarkers = [];
 let locationListener = [];
+let infowindow = false;
 
 function initMap() {
   let locations = [
@@ -35,8 +36,8 @@ function initMap() {
       link: "https://www.youtube.com/embed/Gc8MS837mw0",
     },
     {
-      lat: 35.13643,
-      lng: -119.04116,
+      lat: 34.63643,
+      lng: -119.54116,
       title: "Santa Anita",
       text: "Winner of the G2 Santa Anita Oaks.",
       embed: "https://www.youtube.com/embed/Gc8MS837mw0",
@@ -79,16 +80,19 @@ function initMap() {
         position: locations[i],
         map,
         title: locations[i].title,
-        icon: '/img/SwissIcon1.png'
+        icon: '/img/map_pin.png'
       });
-      locationMarkers[i].addListener("click", () => {
-        locationListener[i] = new google.maps.InfoWindow({
+      locationMarkers[i].addListener("click", function() {
+        if (infowindow) {
+        infowindow.close();
+        };
+        infowindow = new google.maps.InfoWindow({
           content: locWindow(
             locations[i].title,
             locations[i].text,
             locations[i].embed),
         });
-        locationListener[i].open({
+        infowindow.open({
           anchor: locationMarkers[i],
           map,
           shouldFocus: false,

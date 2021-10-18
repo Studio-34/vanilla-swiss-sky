@@ -160,6 +160,14 @@ hr.right {
 
 }
 
+.standard {
+  padding: 2px;
+}
+
+.mobile {
+  padding: 5px;
+}
+
 .standard .mapPark {
   letter-spacing: .2rem;
   text-transform: uppercase;
@@ -217,5 +225,5 @@ hr.right {
 .grade {
   margin-top: .25rem;
   letter-spacing: .15rem;
-  /* font-size: ; */
+  font-size: 1.65;
 }

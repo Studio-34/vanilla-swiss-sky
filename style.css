@@ -159,3 +159,63 @@ hr.right {
   color: black;
 
 }
+
+.standard .mapPark {
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  /* color: #de2828; */
+}
+
+.standard .mapCity {
+  font-weight: 400;
+  letter-spacing: .25rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: .75rem;
+}
+
+.standard .mapRace {
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #de2828;
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
+
+.mobile .mapPark {
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+  /* font-weight: bold; */
+  /* color: #de2828; */
+}
+
+.mobile .mapCity {
+  font-weight: 400;
+  letter-spacing: .25rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 1.15rem;
+}
+
+.mobile .mapRace {
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.15rem;
+  color: #de2828;
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
+
+.grade {
+  margin-top: .25rem;
+  letter-spacing: .15rem;
+  /* font-size: ; */
+}

@@ -17,7 +17,7 @@ function locWindow(device, locName, locCity, locText, locGrade, locEmbed) {
   let content = `<div id="content">
       <div id="siteNotice">
       </div>
-      <div class="${device}">
+      <div class="${device} mx-auto">
       <div id="firstHeading" class="firstHeading"><span class="mapPark">${locName} |</span><span class="mapCity"> ${locCity}</span></div>
       <div id="bodyContent">
       <p class="mapRace">Won ${locText}</p>

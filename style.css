@@ -117,7 +117,7 @@ hr.right {
   /* stroke: white; */
 }
 
-.footer a:link {
+.footer, a:link {
   letter-spacing: .25rem;
   font-weight: bold;
   color: white;
@@ -125,24 +125,37 @@ hr.right {
 
 }
 
-.footer a:visited {
+.footer, a:visited {
   color: white;
 
 }
 
-.footer a:hover {
+.footer, a:hover {
   color: white;
 
 }
-.footer a:active {
+.footer, a:active {
   color: white;
+}
+
+a:hover .footer {
+  transition: backgrond-color 2s ease-in-out;
+  background-color: rgb(175, 39, 39);
+  text-decoration: none !important;
+}
+
+.hipNum, a:hover .footer {
+  color: white;
+  text-decoration: none !important;
+  transition: background-color .2s ease-in-out;
+
 }
 
 .foot {
   background: linear-gradient(#e9dfdf, #e4e2e2);
 }
 
-.hipLink a:link {
+.hipLink, a:link {
   /* letter-spacing: .25rem; */
   /* font-weight: bold; */
   color: black;
@@ -150,13 +163,22 @@ hr.right {
 
 }
 
-.hipLink a:visited {
+.hipLink, a:visited {
   color: black;
 
 }
 
-.hipLink a:hover {
+.hipLink, a:hover {
   color: black;
+  /* text-decoration: underline; */
+  
+}
+
+.hipLink, a:hover .box {
+  transition: background-color .2s ease-in-out;
+  color: black;
+  /* text-decoration: underline; */
+  background-color: rgb(221, 221, 221);
 
 }
 

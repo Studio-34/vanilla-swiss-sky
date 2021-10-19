@@ -51,7 +51,7 @@ function initMap() {
       city: "Hotsprings, AR",
       text: "Fantasy Stakes",
       grade: "3",
-      embed: "https://www.youtube.com/embed/NaJPFz6brH0",
+      embed: "https://www.youtube.com/embed/x1Ldyb5pUwg",
     },
     {
       lat: 34.13643,

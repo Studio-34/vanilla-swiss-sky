@@ -3,7 +3,7 @@
 
 console.log(screen.width);
 let pin = './img/map_pin.png';
-let zoom = 4;
+let zoom = 4.75;
 let device = 'standard';
 
 if (screen.width < 768) {
@@ -81,8 +81,8 @@ function initMap() {
       embed: "https://www.youtube.com/embed/vTPXlSXVWbw",
     },
     {
-      lat: 34.63643,
-      lng: -119.54116,
+      lat: 34.93643,
+      lng: -119.74116,
       title: "Santa Anita",
       city: "Arcadia, CA",
       text: "Beholder Mile Stakes",
